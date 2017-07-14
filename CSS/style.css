@@ -1,0 +1,144 @@
+body{
+
+	
+	
+	font-family: Arial,verdana;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+
+}
+
+#showcase {
+	background: url('../img/forest.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 600px;
+	text-align: center;
+	padding-top: 250px;
+	font-family: lucida;
+
+
+
+}
+
+.container{
+
+	width: 80%;
+	margin: auto;
+
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+
+}
+
+.button{
+	height: 40px;
+	background-color:mediumslateblue;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #ffffff;
+
+}
+
+header{
+
+	background: plum;
+	color:#000000;
+	padding-top: 20px;
+	min-height: 70px;
+	border-bottom:  mediumslateblue 4px solid; 
+}
+
+header a{
+		color: #000000;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 15px;
+
+}
+
+header li{
+		list-style: none;;
+		float: left;
+		display: inline;
+		padding: 0 30px 0 30px;
+}
+
+.baking {
+	float: left;
+}
+
+header nav{
+	float: right;
+	margin-top: 30px;
+}
+
+header a:hover{
+	color: mediumslateblue;
+	font-weight: bold;
+}
+
+#showcase h1{
+	font-size: 60px;
+	margin-bottom: 10px;
+	margin-top: 0;
+
+}
+
+#showcase p{
+	font-size: 20px;
+}
+
+#newsletter{
+	padding: 15px;
+	background-color: plum;
+	min-height: 70px;
+
+}
+
+#newsletter h4{
+	float: left;
+}
+
+
+#newsletter form{
+	float: right;
+	margin-top: 15px;
+}
+
+/*Boxes*/
+#boxes{
+	margin-top: 20px;
+
+
+
+}
+
+.box{
+	float: left;
+	text-align: center;
+	width: 30%;
+	padding: 10px;
+}
+
+.box img{
+
+	width: 200px;
+}
+
+footer{
+	padding: 20px;
+	margin-top: 20px;
+	background-color: plum;
+	text-align: center;
+	color: mediumslateblue;
+	min-height: 70px;
+	clear: both;
+
+}
